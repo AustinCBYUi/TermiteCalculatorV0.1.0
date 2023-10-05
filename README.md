@@ -1,13 +1,11 @@
-# TermiteCalculatorV0.1.0
+# TermiteSVCLoggerV0.1.0
 
-This program will be a CLI ran program that will have several options to calculate the following information for termite technicians
-or sales inspectors. It is catered to termite services.
-- Chemical usage for job (ounces)
-- Gallons of water used with mixture included. (finished dilution)
-- Rough estimate of concrete usage (cannot predict drill bit size)
-- Area calculator which will be performed in the background to give a 'statistics' view later.
-- Inheriting from the calculator: It will start with running linear footage calculations with rough specifications for treatment / prep too.
-- Calculate total linear footage, total gallons needed*
-- Average price point based off linear footage of home.
-- Additional support for bait installations
+This program will be a CLI ran program that will have several options to calculate information, log customer information / callback as a **technician**, and hopefully a few other *useful* tools.
+
+- Chemical usage estimate for a job (ounces + total gallons needed).
+- Basic customer information logging for individual technicians to personalize the treatment process / RT process. This will include Phone number, address, names, and service notes that will actually be saved and useable by technicians. You can also put in a reminder for 45 day checkups, 90 day checkups, or 6 month checkups(flexpack installations only). This feature helps technicians to manage customer base personally while achieving customer satisfaction in the form of great communication.
+- Area calculator which will be performed in the background to give a 'statistics' view later. This is made possible by EnterMeasurements() - where you can start at one section of a house and follow around with linear footage per section.
+- Average price point based off linear footage of home, with all treatment types from bait job, PP, PP+Bait, Conventional.
+- Additional support for bait installations / drywood (specialty treatments)
 - Possible API support for database connection / simply using JSON To store and retrieve data.
+- Possible integration of storing customer graphs with dated retrieval for sales inspectors as requested by a inspector.
